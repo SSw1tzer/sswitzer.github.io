@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <style type=text/css>   
+            body   
+            {  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+            }  
+            header {  
+            background-color: rgb(19, 187, 145);  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 25px 0 rgb(13, 45, 63);  
+            }  
+            header * {  
+            display: inline;  
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            color: white;  
+            text-decoration: none;  
+            }  
+            </style>   
+            </Head>    
+            <header>  
+            <nav>  
+            <ul>  
+            <li>  
+            <a href="home.html"> Home </a>  
+            </li>  
+            <li>  
+            <a href="aboutMe.html"> About Me </a>  
+            </li>  
+            <li>  
+            <a href="contact.html"> Contact </a>  
+            </li>  
+            <li> <a href="resume.html"> Resume </a>  
+            </li>    
+            </ul>  
+            </nav>  
+            </header>  
+        <title> Contact Me </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend>Contact Info:</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" name="message"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
