@@ -1,0 +1,96 @@
+header {
+    background-color: teal;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 25px 0 rgb(13, 45, 63); 
+}
+
+header * {  
+    display: inline;  
+}  
+
+header li {  
+    margin: 20px;  
+}  
+
+header li a {  
+    color: purple;  
+    text-decoration: none;  
+}  
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+body{
+    height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+            background-color: rgb(51, 47, 47);
+}
+
+.home-header {
+    color: purple;
+    text-align: center;
+}
+
+.home-para {
+    color: teal;
+    text-align: center;
+}
+
+.about-header {
+    color: green;
+    text-align: center;
+}
+
+.about-intro{
+    color: palevioletred;
+    text-align: center;
+}
+
+.about-hobbies{
+    color: rgb(142, 142, 238);
+    text-align: center;
+}
+
+.contact-legend{
+    color: darkolivegreen;
+}
+
+.contact-name{
+    color: blueviolet;
+}
+
+.contact-email{
+    color: aquamarine;
+}
+
+.contact-subject{
+    color: burlywood;
+}
+
+.contact-message{
+    color: crimson;
+}
+
+.resume-body {
+    height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+            color: white;
+        .section { margin-bottom: 20px; }
+        h1, h2 { color: rgb(128, 223, 223); }
+        .work-experience, .education { margin-left: 20px; }
+}
